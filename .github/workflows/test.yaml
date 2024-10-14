@@ -3,8 +3,8 @@ name: Hola Mundo
 on: [push]
 
 jobs:
-    uno:
-      runs-on: ubuntu-latest
+  uno:
+    runs-on: ubuntu-latest
     
     steps:
       - name: Mensaje
