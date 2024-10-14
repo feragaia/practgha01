@@ -9,5 +9,10 @@ jobs:
     steps:
       - name: Mensaje
         run: echo "Hola mundo!!!"
+  dos: 
+    runs-on: ubuntu-latest
+    
+    steps: 
       - name: Directorio
+        run: cd docker 
         run: ls -al
