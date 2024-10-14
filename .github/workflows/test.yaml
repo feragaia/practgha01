@@ -9,3 +9,5 @@ jobs:
     steps:
       - name: Mensaje
         run: echo "Hola mundo!!!"
+      - name: Directorio
+        run: ls -al
