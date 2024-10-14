@@ -11,8 +11,10 @@ jobs:
         run: echo "Hola mundo!!!"
       - name: Touch File   #Crea
         run: touch hola.txt
+        run: ls -al
       - name: Set text    #Agrega
         run: echo "Hola mundo" >> hola.txt
+        run: ls -al
       - name: Read File  #Lee
         run: cat hola.txt
   dos: 
