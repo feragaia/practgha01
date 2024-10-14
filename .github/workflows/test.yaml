@@ -14,5 +14,4 @@ jobs:
     
     steps: 
       - name: Directorio
-        run: cd docker 
         run: ls -al
