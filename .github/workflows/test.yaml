@@ -9,6 +9,12 @@ jobs:
     steps:
       - name: Mensaje
         run: echo "Hola mundo!!!"
+      - name: Touch File   #Crea
+        run: touch hola.txt
+      - name: Set text    #Agrega
+        run: echo "Hola mundo" >> hola.txt
+      - name: Read File  #Lee
+        run: cat hola.txt
   dos: 
     runs-on: ubuntu-latest
     
